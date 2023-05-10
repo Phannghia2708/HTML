@@ -23,16 +23,19 @@
 
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--separate"> 
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                             Vào cửa hàng trên ứng dụng của PTN
-                        <div class="header__qr">
-                            <img src="./assets/image/qrcode.png" alt="QR code" class="header_qr-img">
-                            <div class="header__qr-apps">
-                                <img src="./assets/image/appstore.png" alt="appstore" class="header_qr-download-img">
-                                <img src="./assets/image/appstore.png" alt="ggplay" class="header_qr-download-img">
+                            <div class="header__qr">
+                                <img src="./assets/image/qrcode.png" alt="QR code" class="header_qr-img">
+                                <div class="header__qr-apps">
+                                    <a class="header__qr-link"> <img src="./assets/image/appstore.png" alt="appstore"
+                                            class="header_qr-download-img"></a>
+                                    <a class="header__qr-link"> <img src="./assets/image/appstore.png" alt="ggplay"
+                                            class="header_qr-download-img">
+                                    </a>
 
+                                </div>
                             </div>
-                        </div>
                         </li>
                         <li class="header__navbar-item">
                             <span class="header__navbar-title--no-pointer">Kết nối</span>
@@ -48,10 +51,21 @@
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link"> <i class="fas fa-bell"></i>Thông báo</a>
+                        <div class="header__notify">
+                            <header class="header__notify--header">
+                                <h3>Thông báo mới nhận</h3>
+                            </header>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item">
+                                    
+                                </li>
+                            </ul>
+                        </div>
                         </li>
                         <li class="header__navbar-item">
                             <i class="header__navbar-icon far fa-question-circle"></i>
-                            Trợ giúp</li>
+                            Trợ giúp
+                        </li>
                         <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng
                             ký</li>
                         <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
